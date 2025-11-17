@@ -1,5 +1,7 @@
-let memoire_a = a;
-let memoire_b = b;
+let b = 3;
+let c = 2;
+let a = b;
+b = c;
 
-a = memoire_b;
-b = memoire_a;
+console.log(a);
+console.log(b);
